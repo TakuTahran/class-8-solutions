@@ -1,0 +1,71 @@
+.icon {
+    height: 10px;
+    width: 10px;
+    background-color: grey;
+    display: inline-block;
+}
+
+.nav-link {
+    color: #000000;
+    font-weight: bold;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagline {
+    background: #d8ff36;
+    max-width: 100%;
+}
+
+.tagline h3 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.home-section-1 h2, .home-section-2 h2 {
+    text-transform: uppercase;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 16px;
+}
+
+.home-section-2 h2 {
+    border-bottom: 2px solid #ffffff;
+}
+
+.menu-wrapper {
+    border-bottom: 2px solid #dedede;
+    border-top: 2px solid #dedede;
+}
+
+.btn-custom {
+    background-image: linear-gradient(180deg,#ffffff 50%,#d8ff36 50%);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.home-section-2 {
+    background: #000000;
+    padding: 0 200px;
+}
+.home-section-2 h2 , .home-section-2 p , .home-section-2 h3 {
+    color: white;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 678px) {
+
+    .home-section-2 {
+        padding: 10px;
+    }
+
+}    
+
